@@ -1,1 +1,38 @@
+using System;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
+using System.IO;
+using System.Xml;
 
+static void Main()
+{
+    Console.WriteLine("init, create, get, set, secret, change");
+    string x = Console.ReadLine();
+    if(x == "init")
+    {
+        Console.WriteLine("init");
+    }
+    else if(x == "create")
+    {
+        Console.WriteLine("create");
+    }
+    else if(x == "get")
+    {
+        Console.WriteLine("get");
+    }
+    else if (x == "set")
+    {
+        Console.WriteLine("set");
+    }
+    else if (x == "secret")
+    {
+        Console.WriteLine("secret");
+    }
+    else if (x == "change")
+    {
+        Console.WriteLine("change");
+    }
+
+
+}
