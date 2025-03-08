@@ -1,0 +1,14 @@
+C:\Users\rosaa\Desktop\lösenordshanterare\bin\Debug\net8.0\lösenordshanterare.exe
+C:\Users\rosaa\Desktop\lösenordshanterare\bin\Debug\net8.0\lösenordshanterare.deps.json
+C:\Users\rosaa\Desktop\lösenordshanterare\bin\Debug\net8.0\lösenordshanterare.runtimeconfig.json
+C:\Users\rosaa\Desktop\lösenordshanterare\bin\Debug\net8.0\lösenordshanterare.dll
+C:\Users\rosaa\Desktop\lösenordshanterare\bin\Debug\net8.0\lösenordshanterare.pdb
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.AssemblyInfoInputs.cache
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.AssemblyInfo.cs
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.csproj.CoreCompileInputs.cache
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.dll
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\refint\lösenordshanterare.dll
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.pdb
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\lösenordshanterare.genruntimeconfig.cache
+C:\Users\rosaa\Desktop\lösenordshanterare\obj\Debug\net8.0\ref\lösenordshanterare.dll
