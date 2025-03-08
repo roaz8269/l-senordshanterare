@@ -36,3 +36,30 @@ static void Main()
 
 
 }
+
+private byte[] GenerateVaultKey(string masterPsw, byte[] secretKey)
+{
+    byte[] bytesMasterPsw = Encoding.UTF8.GetBytes(masterPsw);
+
+    // Skapa en array som kan hålla båda
+    byte[] vaultKey = new byte[bytesMasterPsw.Length + secretKey.Length];
+
+    // Kopiera masterPsw till vaultKey
+    Buffer.BlockCopy(bytesMasterPsw, 0, vaultKey, 0, bytesMasterPsw.Length);
+
+    // Kopiera secretKey till vaultKey direkt efter masterPsw
+    Buffer.BlockCopy(secretKey, 0, vaultKey, bytesMasterPsw.Length, secretKey.Length);
+
+    // Skapa en slumpmässig salt (bör vara unik per användning)
+    byte[] salt = new byte[16];
+    using (var rng = RandomNumberGenerator.Create())
+    {
+        rng.GetBytes(salt);
+    }
+
+    // PBKDF2 för att härleda en säker nyckel
+    using (var pbkdf2 = new Rfc2898DeriveBytes(vaultKey, salt, 10000, HashAlgorithmName.SHA256))
+    {
+        return pbkdf2.GetBytes(32); // Returnerar en 256-bitars nyckel
+    }
+}
